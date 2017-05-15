@@ -1,3 +1,5 @@
+# A executer sur le serveur DHCP pour deployer sa conf au serveur secondaire
+
 # Installation de DHCP
 Install-WindowsFeature -name DHCP -IncludeManagementTools -IncludeAllSubFeature
 # Mise en place d'un server secondaire de type loadbalancing
